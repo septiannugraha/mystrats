@@ -71,8 +71,8 @@ public class MAPUtils {
         SharedPreferences.Editor editor = getSharedPreference(context).edit();
         editor.remove(KEY_USERNAME_SEDANG_LOGIN);
         editor.remove(KEY_STATUS_SEDANG_LOGIN);
-//        editor.remove(KEY_USER_TEREGISTER);
-//        editor.remove(KEY_PASS_TEREGISTER);
+        editor.remove(KEY_USER_TEREGISTER);
+        editor.remove(KEY_PASS_TEREGISTER);
         editor.apply();
     }
 

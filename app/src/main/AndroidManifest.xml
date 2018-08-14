@@ -15,14 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.MAPRegisterActivity" />
-        <activity android:name=".view.MAPSplashActivity">
-        </activity>
-        <activity android:name=".view.MAPLoginActivity">
+        <activity android:name=".view.MAPSplashActivity" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.MAPLoginActivity" />
         <activity android:name=".view.MAPMenuActivity" />
         <activity android:name=".view.MAPDaftarActivity" />
     </application>
