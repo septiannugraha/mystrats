@@ -29,18 +29,6 @@ public class MAPMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapmenu);
 
-        findViewById(R.id.logout_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                keluar();
-            }
-        });
-    }
-
-    /** Menuju ke MainActivity dan Set User dan Status sedang login, di Preferences */
-    private void keluar(){
-        MAPUtils.clearLoggedInUser(this);
-        startActivity(new Intent(getBaseContext(),MAPLoginActivity.class));finish();
         mMainFrame = (FrameLayout) findViewById(R.id.main_nav);
         mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
 
