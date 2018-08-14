@@ -4,4 +4,20 @@
     <string name="title_activity_maplogin">MAPLoginActivity</string>
     <string name="title_activity_mapmenu">MAPMenuActivity</string>
     <string name="title_activity_mapdaftar">MAPDaftarActivity</string>
+    <string name="label_main_activity">Welcome</string>
+    <string name="label_login_activity">Login</string>
+    <string name="label_register_activity">Register</string>
+
+    <!-- Berhubungan dengan form login dan register -->
+    <string name="label_signin">Sign In</string>
+    <string name="label_signup">Sign Up</string>
+    <string name="label_logout">Log Out</string>
+    <string name="label_user">Username</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+
+    <string name="error_salah_user">This Username is not found</string>
+    <string name="error_sama_user">This Username is already exist</string>
+    <string name="error_salah_password">This password is incorrect</string>
+    <string name="error_field_kosong">This field is required</string>
 </resources>

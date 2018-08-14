@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.go.bpkp.mystrats">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,29 +14,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MAPMain">
+        <activity android:name=".view.MAPRegisterActivity" />
+        <activity android:name=".view.MAPSplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".view.MAPSplashActivity"
-            android:label="@string/title_activity_mapsplash"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".view.MAPLoginActivity"
-            android:label="@string/title_activity_maplogin"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".view.MAPMenuActivity"
-            android:label="@string/title_activity_mapmenu"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".view.MAPDaftarActivity"
-            android:label="@string/title_activity_mapdaftar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".view.MAPLoginActivity" />
+        <activity android:name=".view.MAPMenuActivity" />
+        <activity android:name=".view.MAPDaftarActivity"></activity>
     </application>
 
 </manifest>
