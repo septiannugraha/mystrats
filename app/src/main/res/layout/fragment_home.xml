@@ -21,6 +21,7 @@
             android:layout_marginBottom="10dp"
             tools:ignore="UselessParent">
             <android.support.v7.widget.CardView
+                android:id="@+id/data_pegawai_button"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:layout_width="0dp"
@@ -59,6 +60,7 @@
 
             </android.support.v7.widget.CardView>
             <android.support.v7.widget.CardView
+                android:id="@+id/data_diklat_button"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:layout_width="0dp"
