@@ -20,4 +20,13 @@
     <string name="error_sama_user">This Username is already exist</string>
     <string name="error_salah_password">This password is incorrect</string>
     <string name="error_field_kosong">This field is required</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Navivation Menu-->
+    <string name="nav_home">Home</string>
+    <string name="nav_message">Message</string>
+    <string name="nav_notification">Notification</string>
+    <string name="nav_person">Person</string>
 </resources>

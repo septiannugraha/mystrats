@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--Navigation Colors-->
+    <color name="colorGray">#252525</color>
+    <color name="colorGrayTransparent">#fff0c2</color>
+    <!--Menu Background Colors-->
+    <color name="backgroundcolor">#FCFCFC</color>
+    <color name="bgpurple">#7C4DFF</color>
+    <color name="bggreen">#00BFA5</color>
+    <color name="lightgray">#EDEDED</color>
 </resources>
