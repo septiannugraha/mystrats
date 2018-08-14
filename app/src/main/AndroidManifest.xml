@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".view.MAPSplashActivity"
+            android:label="@string/title_activity_mapsplash"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MAPLoginActivity"
+            android:label="@string/title_activity_maplogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MAPMenuActivity"
+            android:label="@string/title_activity_mapmenu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MAPDaftarActivity"
+            android:label="@string/title_activity_mapdaftar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

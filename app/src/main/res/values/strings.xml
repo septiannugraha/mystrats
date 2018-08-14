@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyStrats</string>
+    <string name="title_activity_mapsplash">MAPSplashActivity</string>
+    <string name="title_activity_maplogin">MAPLoginActivity</string>
+    <string name="title_activity_mapmenu">MAPMenuActivity</string>
+    <string name="title_activity_mapdaftar">MAPDaftarActivity</string>
 </resources>
