@@ -12,9 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
-
 import id.go.bpkp.mystrats.R;
 import id.go.bpkp.mystrats.controller.MAPUtils;
+
 
 public class MAPMenuActivity extends AppCompatActivity {
     private BottomNavigationView mMainNav;

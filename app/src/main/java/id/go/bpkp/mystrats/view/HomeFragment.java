@@ -18,7 +18,7 @@ import id.go.bpkp.mystrats.R;
  */
 public class HomeFragment extends Fragment {
 
-    CardView dataPegawaiButton, dataDiklatButton;
+    CardView dataPegawaiButton, dataDiklatButton, dataKinerjaButton;
 
 
     public HomeFragment() {
@@ -37,20 +37,27 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        dataPegawaiButton = view.findViewById(R.id.data_pegawai_button);
-        dataDiklatButton = view.findViewById(R.id.data_diklat_button);
-
-        dataPegawaiButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "data pegawai", Toast.LENGTH_SHORT).show();
-            }
-        });
-        dataDiklatButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "data diklat", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        dataPegawaiButton = view.findViewById(R.id.data_pegawai_button);
+//        dataDiklatButton = view.findViewById(R.id.data_diklat_button);
+//        dataKinerjaButton = view.findViewById(R.id.data_kinerja_button);
+//
+//        dataPegawaiButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(getActivity(), "data pegawai", Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//        dataDiklatButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(getActivity(), "data diklat", Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//        dataKinerjaButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(getActivity(), "data kinerja", Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
 }

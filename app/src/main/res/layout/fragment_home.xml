@@ -10,24 +10,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="5dp"
         android:orientation="vertical">
         <LinearLayout
             android:orientation="horizontal"
             android:gravity="center"
             android:clipToPadding="false"
             android:layout_width="fill_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             tools:ignore="UselessParent">
-            <android.support.v7.widget.CardView
+            <LinearLayout
                 android:id="@+id/data_pegawai_button"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:layout_height="190dp"
-                android:layout_margin="10dp">
+                android:layout_height="wrap_content"
+                android:padding="5dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -42,31 +42,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="5dp"
                         android:text="DATA PEGAWAI"/>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray"
-                        android:layout_margin="10dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="Modul Kepegawaian"
-                        android:padding="5dp"
-                        android:textColor="@android:color/darker_gray"/>
                 </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-            <android.support.v7.widget.CardView
+            </LinearLayout>
+            <LinearLayout
                 android:id="@+id/data_diklat_button"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:layout_height="190dp"
-                android:layout_margin="10dp">
+                android:layout_height="wrap_content"
+                android:padding="5dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -81,23 +69,39 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="5dp"
                         android:text="DATA DIKLAT"/>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray"
-                        android:layout_margin="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/data_kinerja_button"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/circlebackgroundorange"
+                        android:src="@drawable/ic_directions_walk_black_24dp"
+                        android:padding="10dp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="Modul Data Diklat"
-                        android:padding="5dp"
-                        android:textColor="@android:color/darker_gray"/>
+                        android:textSize="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="DATA KINERJA"/>
                 </LinearLayout>
+            </LinearLayout>
 
-            </android.support.v7.widget.CardView>
 
         </LinearLayout>
     </LinearLayout>

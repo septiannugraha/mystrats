@@ -19,7 +19,6 @@ import id.go.bpkp.mystrats.controller.MAPUtils;
  */
 public class PersonFragment extends Fragment {
 
-
     public PersonFragment() {
         // Required empty public constructor
     }
